@@ -12,12 +12,17 @@ public class SceneSwitcher : MonoBehaviour
 
     public void GoToChecklists()
     {
-        Debug.Log("Going to review of plan");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Checklists");
     }
 
     public void GoToHome()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+    }
+
+    public void GoToPreIncidentPlan()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("HelloAR");
     }
 
     public void GoToSmokeDetectorPlacement()
