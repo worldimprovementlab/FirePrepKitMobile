@@ -5,9 +5,9 @@ using UnityEngine;
 public class SceneSwitcher : MonoBehaviour
 {
 
-    public void GoTo3dHomeScanner()
+    public void GoTo3dHomeScan()
     {
-        Debug.Log("Going to 3d scan of home");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("3dHomeScan");
     }
 
     public void GoToChecklists()
@@ -22,7 +22,7 @@ public class SceneSwitcher : MonoBehaviour
 
     public void GoToPreIncidentPlan()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("HelloAR");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("PreIncidentPlan");
     }
 
     public void GoToSmokeDetectorPlacement()
