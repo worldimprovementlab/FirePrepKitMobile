@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Quests.unity
+    guid: c67c51f915b7e4c53878fe7233cd77c2
+  - enabled: 1
+    path: Assets/Scenes/SmokeDetectorList.unity
+    guid: 8164411b8d18e416b994fc703b29e823
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SmokeDetectorTestScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/HelloAR.unity
+    guid: a525c85bd5c78404e96ccd4ae943a192
   m_configObjects: {}
