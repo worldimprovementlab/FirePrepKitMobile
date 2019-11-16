@@ -154,7 +154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25, y: 467}
+  m_AnchoredPosition: {x: 34.38, y: 471}
   m_SizeDelta: {x: 725.55, y: 93.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &76667251
@@ -188,7 +188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Quest: Smoke Detectors'
+  m_Text: Monthly Alarm Tests
 --- !u!222 &76667252
 CanvasRenderer:
   m_ObjectHideFlags: 0
