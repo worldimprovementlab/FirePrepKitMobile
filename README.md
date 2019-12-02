@@ -1,6 +1,6 @@
 # FirePrepKitMobile
 
-FirePrepKitMobile is a mobile app that makes fire safety planning easy and fun. Optionally, should you opt-in for this segment of the service, your pre-incident plan can be sent to emergency responders in advance.
+FirePrepKitMobile is a mobile Unity app that makes fire safety planning easy and fun. Optionally, should you opt-in for this segment of the service, your pre-incident plan can be sent to emergency responders in advance.
 
 ## Features
 
@@ -128,3 +128,18 @@ Pull requests should be as small/atomic as possible. Large, wide-sweeping change
 #### Follow C# coding standards and keep your code simple!
 
 Please keep your code as clean and straightforward as possible.
+
+---
+
+## Old Installation Instructions
+
+- Install Unity 2019.2.12f1
+- Git clone the project
+- Open the project in Unity
+- Connect an Android phone with a large screen (we used a Pixel 3 XL) to your computer via USB
+- Open File > Build Settings
+- Choose Platform: Android
+- Next to Run Device, click Refresh. Wait for it to detect your phone, then choose it from the dropdown.
+- Click the Build and Run button.
+- Save the build as FilePrepKitAndroidUnityBuild.apk
+- Wait a moment for it to run on your Android device. The screen will go blank, then wait patiently for the app to start.
